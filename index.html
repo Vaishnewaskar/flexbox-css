@@ -1,56 +1,69 @@
 <html>
-  <head>
-    <title>FlexBox Practice</title>
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .container {
-        width:  800px;
-        background-color: yellow;
-        height: 400px;
-        padding: 10px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-      }
-      .blue {
-        width: 300px;
-        background-color: blue;
-        height: 100px;
-        padding: 10px;
-        display: flex;
-      }
-      .orange {
-        width: 100px;
-        background-color: orange;
-        height: 200px;
-        padding: 10px;
-        display: flex;
-      }
-    </style>
-  </head>
-  <body>
-    
-    <div class="container">
-      
-      <div class="blue">
-        box 1
-      </div>
-      
-      <div class="orange">
-        box 2
-      </div>
-      
-       <div class="blue">
-        box 3
-      </div>
-      <div class="orange">
-        box 4
-      </div>
-    </div>
-  </body>
+ <head>
+   <title>Flexbox Paractice</title>
+   <style>
+     body {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     .container {
+       width: 800px;
+       background-color: blue;
+       /*        margin: 20px; */
+       height: 700px;
+       /*         padding: 10px; */
+       display: flex;
+       /*         flex-direction:row-reverse;
+       color:white;
+       justify-content: space-between; */
+ 
+       align-items: center;
+     }
+     .orange {
+       width: 750px;
+       background-color: orange;
+       height: 650px;
+       margin: 10px;
+       padding: 10px;
+     }
+     .green {
+       width: 700px;
+       background-color: green;
+       height: 290px;
+       margin: 10px;
+       padding: 10px;
+       display: flex;
+       justify-content: space-between;
+     }
+     .purple {
+       width: 300px;
+       background-color: purple;
+       height: 250px;
+       margin: 10px;
+       padding: 10px;
+     }
+     .yellow {
+       width: 300px;
+       background-color: yellow;
+       height: 250px;
+       margin: 10px;
+       padding: 10px;
+     }
+   </style>
+ </head>
+ <body>
+   <div class="container">
+     <div class="orange">
+       <div class="green">
+         <div class="purple"></div>
+         <div class="yellow"></div>
+       </div>
+       <div class="green">
+         <div class="yellow"></div>
+         <div class="purple"></div>
+       </div>
+     </div>
+   </div>
+ </body>
 </html>
